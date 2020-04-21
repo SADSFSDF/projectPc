@@ -1,0 +1,259 @@
+.pcContent{
+	background:url(../images/wzxqbj.png) no-repeat center center;
+	background-size: contain;
+}
+.zt{
+	width:100%;
+	height:240px;
+	background: url(../images/btlkj.png) no-repeat center center;
+	background-size: cover;
+}
+.ztContent{
+	max-width: 1200px;
+	padding-top: 50px;
+	margin:0 auto;
+}
+.ztContent h1{
+	font-size:56px;
+	font-family:Microsoft YaHei;
+	font-weight:bold;
+	color:rgba(255,255,255,1);
+	margin-bottom: 20px;
+}
+.ztContent h2{
+	font-size:26px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(255,255,255,1);
+}
+.detail{
+	width: 100%;
+	text-align: center;
+	margin-top:60px;
+}
+.detail_inner{
+	display: inline-block;
+}
+.detail_inner_left{
+	display: inline-block;
+	width: 840px;
+	margin-right: 60px;
+	float: left;
+
+}
+.detail_inner_left h2{
+	font-size:32px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(50,50,50,1);
+	margin-bottom: 10px;
+	text-align: left;
+}
+.detailmsg{
+	font-size:16px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	margin-bottom: 20px;
+	color: #969696;
+	text-align: left;
+}
+.leftImg{
+	width:840px;
+height:300px;
+margin-top: 38px;
+margin-bottom: 38px;
+display: block;
+}
+.detailCon h1{
+	font-size:24px;
+font-family:Microsoft YaHei;
+font-weight:bold;
+text-align: left;
+margin-bottom: 11px;
+color:rgba(50,50,50,1);
+}
+.detailCon p{
+	margin-bottom: 40px;
+	font-size:16px;
+font-family:Microsoft YaHei;
+font-weight:400;
+color:rgba(50,50,50,1);
+text-align: left;
+}
+.detailNext{
+	border-top:1px solid rgba(226,226,226,1);
+	padding-top: 49px;
+	text-align: left;
+}
+.detailNext a{
+	font-size:14px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(100,100,100,1);
+	text-decoration: none;
+}
+.detailNext a:nth-of-type(1){
+	margin-right: 80px;
+}
+.detailNext a:nth-of-type(2){
+	margin-right: 160px;
+}
+.detailNext a:nth-of-type(3){
+	vertical-align: middle;
+}
+.detailNext span{
+	vertical-align: middle;
+}
+.detailNext img{
+	width: 21px;
+	margin-right:5px;
+	vertical-align: middle;
+}
+.detail_inner_right{
+	width: 300px;
+	display: inline-block;
+	float: left;
+}
+
+.r1{
+	width: 300px;
+	height: 400px;
+	margin-bottom: 50px;
+	display: block;
+}
+.detail_inner_right h1{
+	font-size:20px;
+	font-family:Microsoft YaHei;
+	font-weight:bold;
+	color:rgba(50,50,50,1);
+	margin-bottom: 20px;
+	text-align: left;
+}
+.tpic{
+	width: 300px;
+	height: 180px;
+	margin-bottom: 14px;
+	display: block;
+}
+.tcon{
+	font-size:14px;
+font-family:Microsoft YaHei;
+font-weight:400;
+color:rgba(50,50,50,1);
+margin-bottom: 30px;
+text-align: left;
+}
+
+.phoneDetailImg img{
+	width: 100%;
+}
+.phoneDetailImg{
+	position: relative;
+}
+.phoneDetailCon{
+	position: absolute;
+	bottom: 0;
+
+}
+.phoneDetailCon div:nth-of-type(1){
+	color: #fff;
+	font-size: 14px;
+	margin-bottom: 0px;
+	padding-left: 15px;
+	z-index: 999;
+	position: relative;
+}
+.phoneDetailCon div:nth-of-type(2){
+	color: #fff;
+	font-size: 14px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	z-index: 999;
+	position: relative;
+}
+.phoneDetailCon div:nth-of-type(2) span{
+	color: #fff;
+	font-size: 12px;
+	margin-right: 5px;
+	z-index: 999;
+	position: relative;
+}
+.fa{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left:0;
+	top:0;
+	background:rgba(0,0,0,0.1);
+}
+
+.phoneDetailMst{
+	background:rgba(255,255,255,1);
+	border-radius:5px 5px 0px 0px;
+	    padding: 10px;
+	font-size: 14px;
+	border-bottom: 1px solid rgba(227,227,227,1);
+}
+.phoneDetailMst p{
+	line-height: 22px;
+	margin-bottom: 10px;
+	color:rgba(100,100,100,1);
+}
+.phoneDetailMst .imgs{
+	display: block;
+    width: 100%;
+    margin-bottom: 8px;
+}
+.share{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	font-size:14px;
+	padding-right: 15px;
+	color:rgba(100,100,100,1);
+	border-bottom: 1px solid rgba(227,227,227,1);
+}
+.share img{
+	float: right;
+	margin-left:10px;
+	width: 25px;
+}
+.contentDetail{
+	margin-left:10px;
+	margin-right: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid rgba(227,227,227,1);
+	overflow: hidden;
+}
+.artTitle{
+	display: block;
+	float: left;
+	width: 33.3%;
+}
+.artContent{
+	display: block;
+	float: left;
+	width: 66.6%;
+}
+.artContent div:nth-of-type(1){
+	font-size: 16px;
+	color: #282826;
+	margin-bottom: 2px;
+	padding-left: 8px;
+}
+.artContent div:nth-of-type(2){
+	font-size: 14px;
+	color: #646464;
+	margin-bottom: 2px;
+	padding-left: 8px;
+}
+.artContent div:nth-of-type(3){
+	font-size: 14px;
+	color: #646464;
+	padding-left: 8px;
+}
+.phoneFooterTop{
+	margin-top: 0;
+	border-top: 0;
+}
