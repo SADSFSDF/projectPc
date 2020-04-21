@@ -322,18 +322,18 @@ margin-top: -60px;
 	width: 1200px;
 	height: 620px;
 	background: url(../images/znsb.png) no-repeat center center;
-	background-size: cover;
+	background-size:100%  100%;
 	margin:0 auto;
 	position: relative;
 }
 
 .vc{
-	width: 611px;
-    height: 288px;
+	    width: 555px;
+    height: 286px;
     position: absolute;
     left: 50%;
     bottom: 105px;
-    margin-left: -321px;
+    margin-left: -291px;
 }
 .vc video{
 	width: 100%;

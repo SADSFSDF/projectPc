@@ -115,3 +115,14 @@ color:rgba(255,255,255,1);
 	padding-left: 15px;
 	padding-right: 15px;
 }
+.more{
+	vertical-align: middle;
+}
+.more span{
+	vertical-align: middle;
+}
+.more img{
+	width: 30px;
+	margin-left: 13px;
+	vertical-align: middle;
+}
