@@ -257,3 +257,12 @@ text-align: left;
 	margin-top: 0;
 	border-top: 0;
 }
+.marginTop50{
+	margin-top: 50px!important;
+}
+.fx{
+	margin-right: 5px; 
+}
+.i2{
+	position: relative;left:4px;top:2px;
+}

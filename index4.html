@@ -28,9 +28,15 @@
 	</div>
 
 	<div class="roomDiv">
-		<div class="acc">博物馆</div>
-		<div>西班牙制造</div>
-		<div>人物</div>
+		<div class="acc">博物馆
+			<p class="hoverClass">博物馆</p>
+		</div>
+		<div>西班牙制造
+			<p class="hoverClass">西班牙制造</p>
+		</div>
+		<div>人物
+			<p class="hoverClass">人物</p>
+		</div>
 	</div>
 
 	<div class="roomContent ">
@@ -142,7 +148,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="page scrollContainer" style="margin-top: 50px;" >
+	<div class="page scrollContainer marginTop50"  >
 		<div class="zxf_pagediv"></div>
 	</div>
 	<div class="footer">
@@ -218,9 +224,14 @@
 
 
 	 $(".roomDiv div").hover(function(){
-	 	$(this).addClass("hoverClass")
+	 	if(!$(this).hasClass("acc")){
+	 		$(this).find("p").addClass("ani1")
+	 	}
+	 	
 	 },function(){
-	 	$(this).removeClass("hoverClass")
+	 	if(!$(this).hasClass("acc")){
+	 		$(this).find("p").removeClass("ani1")
+	 	}
 	 })
 </script>
 </html>

@@ -14,8 +14,9 @@
 	height: 160px;
 	float: left;
 	cursor: pointer;
+	position: relative;
 }
-.roomDiv div:nth-of-type(1){
+.roomDiv >div:nth-of-type(1){
 	background: url(../images/btlbwg.png) no-repeat center center;
 	text-align: center;
 	font-size:32px;
@@ -25,10 +26,10 @@
 	line-height: 160px;
 }
 .acc{
-	background: rgba(40,141,255,1)!important;
-	
+	background: url("../images/btlbwg1.png") no-repeat  center center!important;
+	background-size: cover;
 }
-.roomDiv div:nth-of-type(2){
+.roomDiv >div:nth-of-type(2){
 	color:rgba(100,100,100,1);
 	font-size:32px;
 	font-family:Microsoft YaHei;
@@ -36,7 +37,7 @@
 	background: url(../images/btlbwg11.png) no-repeat center center;
 	line-height: 160px;
 }
-.roomDiv div:nth-of-type(3){
+.roomDiv >div:nth-of-type(3){
 	color:rgba(100,100,100,1);
 	font-size:32px;
 	font-family:Microsoft YaHei;
@@ -78,10 +79,7 @@
 	margin-bottom: 25px;
 	    margin-bottom: 6px;
 }
-.hoverClass{
-	background: rgba(40,141,255,1)!important;
-	color: #fff!important
-}
+
 .des{
 	font-size:20px;
 	font-family:Microsoft YaHei;
@@ -202,4 +200,45 @@ text-align: left;
 -moz-transform:translateY(-5px); 	/* Firefox */
 -webkit-transform:translateY(-5px); /* Safari 和 Chrome */
 -o-transform:translateY(-5px); 	/* Opera */
+}
+.ani1{
+	animation:mymove 0.5s infinite;
+	/*Safari 和 Chrome:*/
+	-webkit-animation:mymove 0.5s ;
+	animation-fill-mode:forwards;
+	-webkit-animation-fill-mode:forwards;
+}
+
+@keyframes mymove
+	{
+	from {width: 0}
+	to {width: 100%}
+}
+
+/*Safari 和 Chrome:*/
+@-webkit-keyframes mymove
+{
+	from {width: 0}
+	to {width: 100%}
+}
+
+.hoverClass{
+	background: url("../images/btlbwg1.png") no-repeat  center center!important;
+	background-size: cover;
+	color: #fff!important;
+	color:rgba(100,100,100,1);
+	font-size:32px;
+	font-family:Microsoft YaHei;
+	font-weight:bold;
+	background: url(../images/btlbwg11.png) no-repeat center center;
+	line-height: 160px;
+	width: 0%;
+	height: 100%;
+	position: absolute;
+	left:0;
+	top:0;
+	overflow: hidden;
+}
+.marginTop50{
+	margin-top: 50px!important;
 }

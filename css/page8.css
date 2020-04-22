@@ -3,6 +3,7 @@
 }
 .bannerMsg img{
 	width: 100%;
+	height: 500px;
 }
 .divContent{
 	text-align:center;
@@ -285,6 +286,7 @@ margin-bottom: 10px;
 	text-align: left;
 	padding-left: 50px;
 	display: inline-block;
+	text-align: center;
 }
 .typeDivInner img{
 	height: : 65px;
@@ -644,4 +646,65 @@ margin-bottom: 8px;
 	background:#FFF6DE;
 	border-radius:5px;
 	padding: 12px;
+}
+
+.bannerMsg{
+	position: relative;
+}
+.bannerInner{
+	width:762px;
+	height:324px;
+	background: url(../images/tybj.png) no-repeat center center;
+    position: absolute;
+    left: 50%;
+    margin-left: -381px;
+    top: 100px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 59px;
+        animation: heart 3s infinite;
+    -webkit-animation: heart 3s infinite;
+    animation-direction: alternate;
+    -webkit-animation-direction: alternate;
+    padding-left: 100px;
+    text-align: left;
+}
+.bannerT1{
+	font-size:42px;
+font-family:Microsoft YaHei;
+font-weight:bold;
+color:rgba(50,50,50,1);
+margin-bottom: 14px;
+}
+.bannerT2{
+	.font-size:26px;
+font-family:Microsoft YaHei;
+font-weight:400;
+color:rgba(50,50,50,1);
+vertical-align: middle;
+margin-bottom: 14px;
+}
+.bannerT2 img{
+	vertical-align: middle;
+	width: 24px;
+	height: 24px;
+	margin-right: 5px;
+}
+.bannerT2 span{
+	vertical-align: middle;
+}
+.bannerT3{
+	font-size:18px;
+font-family:Microsoft YaHei;
+font-weight:400;
+color:rgba(100,100,100,1);
+}
+@keyframes heart{
+from{margin-top:0px;}
+to{margin-top:-16px;}
+}
+
+@keyframes heart{
+from{transform:translate(0,0)}
+to{transform:translate(0,16px)}
 }
